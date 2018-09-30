@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.botao{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 10%;
+}
+.botao:hover{
+    cursor: pointer;
+}
+.secreta{
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+    display: none;
+}
+/* hover, quer dizes que toda vez que o cursor passar por cima de algo uma ação é feita */
